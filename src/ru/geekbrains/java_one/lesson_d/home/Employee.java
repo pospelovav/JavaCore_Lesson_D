@@ -39,8 +39,8 @@ public class Employee {
         this.Salary = Salary;
     }
 
-    void OlderFourty(){
-        if (getAge() > 40){
+    void OlderFourty() {
+        if (getAge() > 40) {
             System.out.printf("Id: %s, FIO: %s, ZP: %.02f, age: %.0f\n",
                     Id, FullName, Salary, getAge());
         }

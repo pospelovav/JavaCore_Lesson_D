@@ -18,7 +18,7 @@ public class Main {
         float AVG = 0;
 
         for (int i = 0; i < arr.length; i++) {
-            switch (avgWhat){
+            switch (avgWhat) {
                 case "Salary":
                     AVG += arr[i].getSalary() / arr.length;
                     break;
